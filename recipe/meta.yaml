@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cnmfsns-{{ version }}.tar.gz
-  sha256: bd97da5cfc7e6bd81c5715ec25216319c4e9466e2a31a4c54c83eafb62032129
+  sha256: c1dc0d011a5282afa3485f59a2e3ec32221e7d67fbd3ba0f8f435f20b3a2aceb
 
 build:
   noarch: python
