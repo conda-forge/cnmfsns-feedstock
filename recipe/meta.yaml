@@ -1,5 +1,5 @@
 {% set name = "cnmfsns" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cnmfsns-{{ version }}.tar.gz
-  sha256: c1dc0d011a5282afa3485f59a2e3ec32221e7d67fbd3ba0f8f435f20b3a2aceb
+  sha256: 4f7bd305fcd2d00d7b917b77bf70a48aeec46bd3af8c0d60c0417277ce9d3485
 
 build:
   noarch: python
@@ -52,7 +52,7 @@ test:
 
 about:
   home: https://github.com/MorrissyLab/cNMF-SNS
-  summary: "cNMF-SNS: Consensus Non-negative Matrix Factorization Solution Network Space"
+  summary: 'cNMF-SNS: Consensus Non-negative Matrix Factorization Solution Network Space'
   description: powerful factorization-based multi-omics integration toolkit
   license: MIT
   license_file: LICENSE
