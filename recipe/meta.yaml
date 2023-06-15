@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - cnmfsns = cnmfsns.cli:cli
 
@@ -36,11 +36,13 @@ requirements:
     - click
     - pygraphviz
     - python-igraph
-    - semantic_version
     - pyyaml
     - scikit-learn
     - scanpy
     - fastcluster
+    - seaborn
+    - statsmodels
+    - networkx
 
 test:
   imports:
