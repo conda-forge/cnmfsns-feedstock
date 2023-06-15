@@ -7,7 +7,7 @@ Home: https://github.com/MorrissyLab/cNMF-SNS
 
 Package license: MIT
 
-Summary: cNMF Solution Network Space
+Summary: cNMF-SNS: Consensus Non-negative Matrix Factorization Solution Network Space
 
 powerful factorization-based multi-omics integration toolkit
 
