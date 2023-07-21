@@ -1,5 +1,5 @@
 {% set name = "cnmfsns" %}
-{% set version = "1.6.0" %}
+{% set version = "1.6.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cnmfsns-{{ version }}.tar.gz
-  sha256: 53dbb15c68d5e951ecaf4142c4d49176df21dd7e7cac375efebd6fa8239cae21
+  sha256: ce73508cc512d7ae3e995044265bd5e7cdf6ff2b2a3efa2c802356e4ff0cecfd
 
 build:
   noarch: python
